@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dashboard",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd /Users/tuananhduong/Projects/Ptit/do_am_dat/dashboard && npx nest build && node dist/main"],
+      "port": 3123
+    }
+  ]
+}

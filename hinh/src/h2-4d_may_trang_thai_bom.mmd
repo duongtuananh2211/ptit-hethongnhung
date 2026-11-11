@@ -1,0 +1,8 @@
+stateDiagram-v2
+    [*] --> OFF
+    OFF --> ON: độ ẩm < 30% và không có lỗi
+    ON --> OFF: độ ẩm ≥ 60%
+    ON --> OFF: cảm biến lỗi (ADC ngoài dải)
+    ON --> LOI_BOM: bơm 3 phút, độ ẩm tăng < 5%
+    LOI_BOM --> OFF: người dùng gửi lệnh bất kỳ
+    note right of LOI_BOM: bơm tắt, field4 = 2

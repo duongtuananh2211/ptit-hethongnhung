@@ -1,0 +1,64 @@
+20:52:49.383 ets Jul 29 2019 12:21:46
+20:52:49.383 
+20:52:49.383 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+20:52:49.383 configsip: 0, SPIWP:0xee
+20:52:49.383 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+20:52:49.383 mode:DIO, clock div:2
+20:52:49.383 load:0x3fff0030,len:4640
+20:52:49.383 load:0x40078000,len:15632
+20:52:49.383 load:0x40080400,len:3164
+20:52:49.383 entry 0x4008059c
+20:52:50.193 
+20:52:51.820 [WiFi] Đang kết nối tới "anhdt"...
+20:52:51.820 [WiFi] Đã kết nối! IP: 192.168.23.109
+20:52:51.820 [System] Khởi động hoàn tất!
+20:52:51.820 [System] Điều khiển từ xa qua ThingSpeak TalkBack: AUTO | ON | OFF
+20:52:51.820 [System] ⚠️ Chưa cấu hình TS_TALKBACK_ID trong secrets.h
+20:52:51.820 
+20:52:51.820 [T] setup_done t=2142
+20:52:51.820 [T] loop t=2142 dt=0
+20:52:51.820 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 1036)
+20:52:51.820 [Sensor] ADC raw: 1036 → LỖI
+20:52:52.839 [T] write_fields 881 ms (HTTP 200)
+20:52:52.839 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+20:52:52.839 [T] first_write_ok t=3088
+20:52:53.860 [T] loop t=4099 dt=1957
+20:52:53.860 [Sensor] ADC raw: 1037 → LỖI
+20:52:54.877 [T] loop t=5150 dt=1051
+20:52:54.877 [Sensor] ADC raw: 1044 → LỖI
+20:52:55.892 [T] loop t=6200 dt=1050
+20:52:55.892 [Sensor] ADC raw: 1050 → LỖI
+20:52:56.906 [T] loop t=7250 dt=1050
+20:52:56.907 [Sensor] ADC raw: 1059 → LỖI
+20:52:57.924 [T] loop t=8300 dt=1050
+20:52:57.925 [Sensor] ADC raw: 1059 → LỖI
+20:52:58.941 [T] loop t=9350 dt=1050
+20:52:59.142 [Sensor] ADC raw: 1060 → LỖI
+20:53:00.157 [T] loop t=10400 dt=1050
+20:53:00.157 [Sensor] ADC raw: 1070 → LỖI
+20:53:01.172 [T] loop t=11450 dt=1050
+20:53:01.172 [Sensor] ADC raw: 1074 → LỖI
+20:53:02.186 [T] loop t=12500 dt=1050
+20:53:02.186 [Sensor] ADC raw: 1079 → LỖI
+20:53:03.207 [T] loop t=13550 dt=1050
+20:53:03.208 [Sensor] ADC raw: 1085 → LỖI
+20:53:04.223 [T] loop t=14600 dt=1050
+20:53:04.424 [Sensor] ADC raw: 1089 → LỖI
+20:53:05.235 [T] loop t=15650 dt=1050
+20:53:05.440 [Sensor] ADC raw: 1093 → LỖI
+20:53:06.451 [T] loop t=16700 dt=1050
+20:53:06.452 [Sensor] ADC raw: 1097 → LỖI
+20:53:07.468 [T] loop t=17750 dt=1050
+20:53:07.468 [Sensor] ADC raw: 1103 → LỖI
+20:53:08.482 [T] loop t=18800 dt=1050
+20:53:08.482 [Sensor] ADC raw: 1103 → LỖI
+20:53:09.491 [T] loop t=19850 dt=1050
+20:53:09.492 [Sensor] ADC raw: 1108 → LỖI
+20:53:10.505 [T] loop t=20900 dt=1050
+20:53:10.706 [Sensor] ADC raw: 1109 → LỖI
+20:53:11.719 [T] loop t=21950 dt=1050
+20:53:11.719 [Sensor] ADC raw: 1119 → LỖI
+20:53:12.740 [T] loop t=23000 dt=1050
+20:53:12.740 [Sensor] ADC raw: 1122 → LỖI
+20:53:13.556 [T] write_fields 864 ms (HTTP 200)
+20:53:13.556 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1

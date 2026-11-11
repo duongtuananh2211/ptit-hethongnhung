@@ -1,0 +1,8 @@
+stateDiagram-v2
+    [*] --> AUTO
+    AUTO --> MANUAL_ON: lệnh ON
+    AUTO --> MANUAL_OFF: lệnh OFF
+    MANUAL_ON --> MANUAL_OFF: lệnh OFF
+    MANUAL_OFF --> MANUAL_ON: lệnh ON
+    MANUAL_ON --> AUTO: lệnh AUTO / hết 5 phút / offline > 60 s
+    MANUAL_OFF --> AUTO: lệnh AUTO / offline > 60 s

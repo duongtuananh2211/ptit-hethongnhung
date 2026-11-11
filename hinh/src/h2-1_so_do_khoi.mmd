@@ -1,0 +1,10 @@
+flowchart LR
+    S[Cảm biến độ ẩm đất] -- Analog --> M[ESP32 DevKit V1]
+    M -- GPIO26 --> R[Module relay] --> P[Máy bơm 12 V]
+    PSU[USB 5 V] --> M
+    PSU2[Adapter 12 V] --> R
+    M -- "WiFi: ghi field1..4" --> T[(ThingSpeak Channel)]
+    TB[(ThingSpeak TalkBack)] -- "WiFi: lấy lệnh" --> M
+    T -- feeds --> B[Backend NestJS]
+    B -- "thêm lệnh" --> TB
+    B <-- HTTP --> U[Dashboard web]

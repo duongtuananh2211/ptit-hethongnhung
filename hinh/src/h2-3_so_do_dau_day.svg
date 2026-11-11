@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 820" width="1360" height="820" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <style>
+      .box { fill: #f4f4f4; stroke: #333; stroke-width: 2; }
+      .esp { fill: #1f3b57; stroke: #0f2234; stroke-width: 2; }
+      .relay { fill: #2c5d9e; stroke: #1a3c6b; stroke-width: 2; }
+      .sens { fill: #2e7d4f; stroke: #1b5233; stroke-width: 2; }
+      .title { font-size: 18px; font-weight: bold; }
+      .lbl { font-size: 15px; }
+      .lblw { font-size: 15px; fill: #fff; }
+      .small { font-size: 13px; fill: #444; }
+      .smallw { font-size: 13px; fill: #dce6f0; }
+      .pin { fill: #d9a400; stroke: #6b5100; stroke-width: 1.5; }
+      .w { fill: none; stroke-width: 4; stroke-linejoin: round; stroke-linecap: round; }
+      .w33 { stroke: #d62828; }
+      .w5 { stroke: #f08c00; }
+      .wgnd { stroke: #222; }
+      .wao { stroke: #2b9348; }
+      .wio { stroke: #1c7ed6; }
+      .w12 { stroke: #c1121f; stroke-width: 6; }
+      .w12n { stroke: #222; stroke-width: 6; }
+      .nc { stroke: #999; stroke-width: 2; stroke-dasharray: 5 4; fill: none; }
+    </style>
+  </defs>
+
+  <rect width="1360" height="820" fill="#fff"/>
+  <text x="680" y="40" text-anchor="middle" class="title" font-size="22">Sơ đồ đấu dây — Hệ thống tưới cây tự động (ESP32 DevKit V1)</text>
+
+  <!-- ===== Cảm biến độ ẩm ===== -->
+  <rect x="60" y="120" width="240" height="200" rx="8" class="sens"/>
+  <text x="180" y="150" text-anchor="middle" class="lblw" font-weight="bold">Module cảm biến</text>
+  <text x="180" y="170" text-anchor="middle" class="smallw">độ ẩm đất (LM393)</text>
+  <g class="lblw" text-anchor="end">
+    <text x="282" y="165">VCC</text><text x="282" y="205">GND</text>
+    <text x="282" y="245">AO</text><text x="282" y="285">DO</text>
+  </g>
+  <circle cx="300" cy="160" r="6" class="pin"/><circle cx="300" cy="200" r="6" class="pin"/>
+  <circle cx="300" cy="240" r="6" class="pin"/><circle cx="300" cy="280" r="6" class="pin"/>
+  <!-- đầu dò -->
+  <path d="M150 320 V400 M210 320 V400" class="w" stroke="#8a5a00" stroke-width="3"/>
+  <path d="M130 400 h40 v120 l-20 30 l-20 -30 z M190 400 h40 v120 l-20 30 l-20 -30 z" fill="#c9a227" stroke="#7a5f00" stroke-width="2"/>
+  <text x="180" y="580" text-anchor="middle" class="small">Đầu dò 2 cực (cắm trong đất)</text>
+
+  <!-- ===== ESP32 ===== -->
+  <rect x="480" y="80" width="280" height="440" rx="10" class="esp"/>
+  <text x="620" y="115" text-anchor="middle" class="lblw" font-weight="bold" font-size="18">ESP32 DevKit V1</text>
+  <text x="620" y="137" text-anchor="middle" class="smallw">ADC 12-bit, suy hao 11 dB</text>
+  <g class="lblw">
+    <text x="498" y="165">GPIO25</text><text x="498" y="205">GND</text><text x="498" y="245">GPIO36 (VP)</text>
+  </g>
+  <text x="498" y="263" class="smallw">ADC1_CH0</text>
+  <text x="498" y="183" class="smallw">nguồn cảm biến</text>
+  <g class="lblw" text-anchor="end">
+    <text x="742" y="165">VIN (5 V)</text><text x="742" y="205">GND</text><text x="742" y="245">GPIO26</text>
+  </g>
+  <circle cx="480" cy="160" r="6" class="pin"/><circle cx="480" cy="200" r="6" class="pin"/><circle cx="480" cy="240" r="6" class="pin"/>
+  <circle cx="760" cy="160" r="6" class="pin"/><circle cx="760" cy="200" r="6" class="pin"/><circle cx="760" cy="240" r="6" class="pin"/>
+  <rect x="595" y="500" width="50" height="20" fill="#bbb" stroke="#555"/>
+  <text x="620" y="490" text-anchor="middle" class="smallw">micro-USB</text>
+
+  <!-- USB -->
+  <path d="M620 520 V620" class="w w5"/>
+  <rect x="500" y="620" width="240" height="60" rx="6" class="box"/>
+  <text x="620" y="645" text-anchor="middle" class="lbl">Cáp USB 5 V</text>
+  <text x="620" y="666" text-anchor="middle" class="small">PC / cốc sạc, ≤ 500 mA</text>
+
+  <!-- ===== Relay ===== -->
+  <rect x="940" y="100" width="280" height="280" rx="8" class="relay"/>
+  <text x="1080" y="130" text-anchor="middle" class="lblw" font-weight="bold">Module relay 2 kênh 5 V</text>
+  <text x="1080" y="150" text-anchor="middle" class="smallw">opto cách ly, tiếp điểm 10 A</text>
+  <g class="lblw">
+    <text x="958" y="165">VCC</text><text x="958" y="205">GND</text><text x="958" y="245">IN1</text><text x="958" y="285">IN2</text>
+  </g>
+  <circle cx="940" cy="160" r="6" class="pin"/><circle cx="940" cy="200" r="6" class="pin"/>
+  <circle cx="940" cy="240" r="6" class="pin"/><circle cx="940" cy="280" r="6" class="pin"/>
+  <rect x="1060" y="180" width="140" height="48" rx="4" fill="#ffe066" stroke="#7a6500"/>
+  <text x="1130" y="200" text-anchor="middle" font-size="13" font-weight="bold">Jumper: HIGH</text>
+  <text x="1130" y="218" text-anchor="middle" font-size="12">(kích mức cao)</text>
+  <text x="1130" y="270" text-anchor="middle" class="smallw">Kênh 2: dự phòng</text>
+  <!-- cầu đấu K1 -->
+  <rect x="975" y="330" width="175" height="50" fill="#1a8a3a" stroke="#0d4d1f"/>
+  <g class="lblw" text-anchor="middle" font-size="13">
+    <text x="1000" y="352">NO1</text><text x="1060" y="352">COM1</text><text x="1120" y="352">NC1</text>
+  </g>
+  <circle cx="1000" cy="380" r="6" class="pin"/><circle cx="1060" cy="380" r="6" class="pin"/><circle cx="1120" cy="380" r="6" class="pin"/>
+
+  <!-- ===== Mạch 12 V ===== -->
+  <rect x="820" y="600" width="160" height="100" rx="8" class="box"/>
+  <text x="900" y="640" text-anchor="middle" class="lbl" font-weight="bold">Máy bơm 12 V DC</text>
+  <text x="900" y="662" text-anchor="middle" class="small">0.6–2 A, 1.8 L/phút</text>
+  <text x="972" y="618" text-anchor="end" font-size="16" font-weight="bold" fill="#c1121f">+</text>
+  <text x="912" y="694" font-size="16" font-weight="bold">−</text>
+
+  <rect x="1100" y="600" width="180" height="100" rx="8" class="box"/>
+  <text x="1190" y="640" text-anchor="middle" class="lbl" font-weight="bold">Adapter 12 V DC</text>
+  <text x="1190" y="662" text-anchor="middle" class="small">≥ 2 A</text>
+  <text x="1110" y="618" font-size="16" font-weight="bold" fill="#c1121f">+</text>
+  <text x="1202" y="694" font-size="16" font-weight="bold">−</text>
+
+  <!-- diode dập 1N4007 -->
+  <path d="M960 560 H790 V625" class="w w12" stroke-width="4"/>
+  <path d="M790 675 V740" class="w w12n" stroke-width="4"/>
+  <polygon points="772,675 808,675 790,645" fill="#555" stroke="#222" stroke-width="2"/>
+  <line x1="770" y1="643" x2="810" y2="643" stroke="#222" stroke-width="4"/>
+  <line x1="790" y1="625" x2="790" y2="643" stroke="#c1121f" stroke-width="4"/>
+  <text x="845" y="772" text-anchor="middle" class="lbl"><tspan font-weight="bold">1N4007</tspan> — diode dập, catốt về (+)</text>
+
+  <!-- ===== Dây ===== -->
+  <!-- cảm biến ↔ ESP32 -->
+  <path d="M300 160 H480" class="w w33"/>
+  <path d="M300 200 H480" class="w wgnd"/>
+  <path d="M300 240 H480" class="w wao"/>
+  <path d="M300 280 H360" class="nc"/><text x="368" y="285" class="small">không nối</text>
+  <!-- ESP32 ↔ relay -->
+  <path d="M760 160 H940" class="w w5"/>
+  <path d="M760 200 H940" class="w wgnd"/>
+  <path d="M760 240 H940" class="w wio"/>
+  <path d="M940 280 H880" class="nc"/><text x="872" y="300" text-anchor="end" class="small">không nối</text>
+  <!-- công suất -->
+  <path d="M1000 380 V560 H960 V600" class="w w12"/>
+  <path d="M1060 380 V520 H1120 V600" class="w w12"/>
+  <path d="M900 700 V740 H1190 V700" class="w w12n"/>
+  <path d="M790 740 H900" class="w w12n"/>
+  <circle cx="960" cy="560" r="6" fill="#c1121f"/><circle cx="900" cy="740" r="6" fill="#222"/>
+  <text x="1300" y="470" text-anchor="end" class="small">Mạch 12 V cách ly: KHÔNG nối</text>
+  <text x="1300" y="488" text-anchor="end" class="small">GND 12 V với GND của ESP32</text>
+
+  <!-- ===== Chú giải ===== -->
+  <rect x="40" y="620" width="400" height="186" rx="6" fill="#fff" stroke="#999"/>
+  <text x="56" y="645" class="lbl" font-weight="bold">Chú giải</text>
+  <g class="lbl">
+    <line x1="56" y1="668" x2="96" y2="668" class="w w33"/><text x="106" y="673">3.3 V từ GPIO25 (chỉ bật lúc đọc)</text>
+    <line x1="56" y1="692" x2="96" y2="692" class="w w5"/><text x="106" y="697">5 V (USB / VIN → VCC relay)</text>
+    <line x1="56" y1="716" x2="96" y2="716" class="w wgnd"/><text x="106" y="721">GND chung mạch điều khiển</text>
+    <line x1="56" y1="740" x2="96" y2="740" class="w wao"/><text x="106" y="745">Tín hiệu analog AO → GPIO36</text>
+    <line x1="56" y1="764" x2="96" y2="764" class="w wio"/><text x="106" y="769">Tín hiệu điều khiển GPIO26 → IN1</text>
+  </g>
+  <line x1="56" y1="788" x2="96" y2="788" class="w w12"/>
+  <text x="106" y="793" class="lbl">12 V mạch bơm (+ đỏ / − đen)</text>
+</svg>

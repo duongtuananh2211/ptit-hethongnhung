@@ -1,0 +1,215 @@
+21:56:28.443 et�ets Jul 29 2019 12:21:46
+21:56:28.443 
+21:56:28.443 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+21:56:28.443 configsip: 0, SPIWP:0xee
+21:56:28.443 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+21:56:28.443 mode:DIO, clock div:2
+21:56:28.443 load:0x3fff0030,len:4640
+21:56:28.443 load:0x40078000,len:15632
+21:56:28.443 load:0x40080400,len:3164
+21:56:28.443 entry 0x4008059c
+21:56:29.256 
+21:56:30.881 [WiFi] Đang kết nối tới "anhdt"...
+21:56:30.881 [WiFi] Đã kết nối! IP: 192.168.23.109
+21:56:30.881 [System] Khởi động hoàn tất!
+21:56:30.881 [System] Điều khiển từ xa qua ThingSpeak TalkBack: AUTO | ON | OFF
+21:56:30.881 [System] ⚠️ Chưa cấu hình TS_TALKBACK_ID trong secrets.h
+21:56:30.881 
+21:56:30.881 [T] setup_done t=2166
+21:56:30.881 [T] loop t=2166 dt=0
+21:56:31.082 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 79)
+21:56:31.082 [Sensor] ADC raw: 79 → LỖI
+21:56:32.098 [T] write_fields 1055 ms (HTTP 200)
+21:56:32.098 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:56:32.303 [T] first_write_ok t=3456
+21:56:33.117 [T] loop t=4468 dt=2302
+21:56:33.523 [Sensor] ADC raw: 115 → LỖI
+21:56:34.334 [T] loop t=5687 dt=1219
+21:56:34.740 [Sensor] ADC raw: 162 → LỖI
+21:56:35.556 [T] loop t=6907 dt=1220
+21:56:35.964 [Sensor] ADC raw: 203 → LỖI
+21:56:36.776 [T] loop t=8127 dt=1220
+21:56:37.182 [Sensor] ADC raw: 238 → LỖI
+21:56:37.992 [T] loop t=9347 dt=1220
+21:56:38.399 [Sensor] ADC raw: 256 → LỖI
+21:56:39.209 [T] loop t=10567 dt=1220
+21:56:39.618 [Sensor] Cảm biến hoạt động lại (ADC 287)
+21:56:39.619 [Sensor] ADC raw: 287 → Độ ẩm: 100%
+21:56:40.433 [T] loop t=11787 dt=1220
+21:56:40.843 [Sensor] ADC raw: 309 → Độ ẩm: 100%
+21:56:41.654 [T] loop t=13007 dt=1220
+21:56:42.060 [Sensor] ADC raw: 328 → Độ ẩm: 100%
+21:56:42.872 [T] loop t=14227 dt=1220
+21:56:43.280 [Sensor] ADC raw: 344 → Độ ẩm: 100%
+21:56:44.093 [T] hang_start t=15447
+21:57:14.205 E (55322) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+21:57:14.206 E (55322) task_wdt:  - loopTask (CPU 1)
+21:57:14.206 E (55322) task_wdt: Tasks currently running:
+21:57:14.206 E (55322) task_wdt: CPU 0: IDLE0
+21:57:14.206 E (55322) task_wdt: CPU 1: loopTask
+21:57:14.206 E (55322) task_wdt: Aborting.
+21:57:14.206 E (55322) task_wdt: Print CPU 1 backtrace
+21:57:14.206 
+21:57:14.206 
+21:57:14.206 
+21:57:14.206 
+21:57:14.206 Backtrace: 0x400d4411:0x3ffb20f0 0x400e890c:0x3ffb2120 0x4008c669:0x3ffb2150
+21:57:14.206 
+21:57:14.206 
+21:57:14.206 
+21:57:14.206 
+21:57:14.206 ELF file SHA256: 4112bb891
+21:57:14.206 
+21:57:14.411 Rebooting...
+21:57:14.411 ets Jul 29 2019 12:21:46
+21:57:14.411 
+21:57:14.411 rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+21:57:14.411 configsip: 0, SPIWP:0xee
+21:57:14.411 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+21:57:14.411 mode:DIO, clock div:2
+21:57:14.411 load:0x3fff0030,len:4640
+21:57:14.412 load:0x40078000,len:15632
+21:57:14.412 load:0x40080400,len:3164
+21:57:14.412 entry 0x4008059c
+21:57:15.423 
+21:57:17.445 [WiFi] Đang kết nối tới "anhdt"....
+21:57:17.446 [WiFi] Đã kết nối! IP: 192.168.23.109
+21:57:17.446 [System] Khởi động hoàn tất!
+21:57:17.446 [System] Điều khiển từ xa qua ThingSpeak TalkBack: AUTO | ON | OFF
+21:57:17.446 [System] ⚠️ Chưa cấu hình TS_TALKBACK_ID trong secrets.h
+21:57:17.446 
+21:57:17.446 [T] setup_done t=2717
+21:57:17.446 [T] loop t=2717 dt=0
+21:57:17.853 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 54)
+21:57:17.853 [Sensor] ADC raw: 54 → LỖI
+21:57:18.673 [T] write_fields 947 ms (HTTP 200)
+21:57:18.673 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:57:18.673 [T] first_write_ok t=3899
+21:57:19.692 [T] loop t=4911 dt=2194
+21:57:19.897 [Sensor] ADC raw: 98 → LỖI
+21:57:20.917 [T] loop t=6130 dt=1219
+21:57:21.121 [Sensor] ADC raw: 145 → LỖI
+21:57:22.137 [T] loop t=7350 dt=1220
+21:57:22.343 [Sensor] ADC raw: 187 → LỖI
+21:57:23.359 [T] loop t=8570 dt=1220
+21:57:23.565 [Sensor] ADC raw: 213 → LỖI
+21:57:24.586 [T] loop t=9790 dt=1220
+21:57:24.790 [Sensor] ADC raw: 245 → LỖI
+21:57:25.805 [T] loop t=11010 dt=1220
+21:57:26.009 [Sensor] ADC raw: 272 → LỖI
+21:57:27.031 [T] loop t=12230 dt=1220
+21:57:27.236 [Sensor] Cảm biến hoạt động lại (ADC 299)
+21:57:27.236 [Sensor] ADC raw: 299 → Độ ẩm: 100%
+21:57:28.251 [T] loop t=13450 dt=1220
+21:57:28.455 [Sensor] ADC raw: 318 → Độ ẩm: 100%
+21:57:29.468 [T] loop t=14670 dt=1220
+21:57:29.672 [Sensor] ADC raw: 338 → Độ ẩm: 100%
+21:57:30.688 [T] hang_start t=15890
+21:58:00.801 E (56208) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+21:58:00.801 E (56208) task_wdt:  - loopTask (CPU 1)
+21:58:00.801 E (56208) task_wdt: Tasks currently running:
+21:58:00.801 E (56208) task_wdt: CPU 0: IDLE0
+21:58:00.801 E (56208) task_wdt: CPU 1: loopTask
+21:58:00.801 E (56208) task_wdt: Aborting.
+21:58:00.801 E (56208) task_wdt: Print CPU 1 backtrace
+21:58:00.801 
+21:58:00.801 
+21:58:00.801 
+21:58:00.801 
+21:58:00.801 Backtrace: 0x400d4411:0x3ffb20f0 0x400e890c:0x3ffb2120 0x4008c669:0x3ffb2150
+21:58:00.801 
+21:58:00.801 
+21:58:00.801 
+21:58:00.801 
+21:58:00.801 ELF file SHA256: 4112bb891
+21:58:00.801 
+21:58:01.003 Rebooting...
+21:58:01.003 ets Jul 29 2019 12:21:46
+21:58:01.003 
+21:58:01.003 rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+21:58:01.003 configsip: 0, SPIWP:0xee
+21:58:01.003 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+21:58:01.003 mode:DIO, clock div:2
+21:58:01.003 load:0x3fff0030,len:4640
+21:58:01.003 load:0x40078000,len:15632
+21:58:01.003 load:0x40080400,len:3164
+21:58:01.004 entry 0x4008059c
+21:58:01.820 
+21:58:03.443 [WiFi] Đang kết nối tới "anhdt"...
+21:58:03.443 [WiFi] Đã kết nối! IP: 192.168.23.109
+21:58:03.443 [System] Khởi động hoàn tất!
+21:58:03.443 [System] Điều khiển từ xa qua ThingSpeak TalkBack: AUTO | ON | OFF
+21:58:03.444 [System] ⚠️ Chưa cấu hình TS_TALKBACK_ID trong secrets.h
+21:58:03.444 
+21:58:03.444 [T] setup_done t=2166
+21:58:03.444 [T] loop t=2166 dt=0
+21:58:03.646 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 59)
+21:58:03.646 [Sensor] ADC raw: 59 → LỖI
+21:58:04.866 [T] write_fields 1056 ms (HTTP 200)
+21:58:04.866 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:58:04.867 [T] first_write_ok t=3456
+21:58:05.881 [T] loop t=4468 dt=2302
+21:58:06.086 [Sensor] ADC raw: 101 → LỖI
+21:58:07.106 [T] loop t=5687 dt=1219
+21:58:07.311 [Sensor] ADC raw: 149 → LỖI
+21:58:08.126 [T] loop t=6907 dt=1220
+21:58:08.532 [Sensor] ADC raw: 189 → LỖI
+21:58:09.345 [T] loop t=8127 dt=1220
+21:58:09.754 [Sensor] ADC raw: 221 → LỖI
+21:58:10.766 [T] loop t=9347 dt=1220
+21:58:10.970 [Sensor] ADC raw: 251 → LỖI
+21:58:11.988 [T] loop t=10567 dt=1220
+21:58:12.193 [Sensor] Cảm biến hoạt động lại (ADC 280)
+21:58:12.193 [Sensor] ADC raw: 280 → Độ ẩm: 100%
+21:58:13.006 [T] loop t=11787 dt=1220
+21:58:13.415 [Sensor] ADC raw: 300 → Độ ẩm: 100%
+21:58:14.427 [T] loop t=13007 dt=1220
+21:58:14.629 [Sensor] ADC raw: 319 → Độ ẩm: 100%
+21:58:15.647 [T] loop t=14227 dt=1220
+21:58:15.849 [Sensor] ADC raw: 339 → Độ ẩm: 100%
+21:58:16.864 [T] hang_start t=15447
+21:58:46.762 E (55322) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:
+21:58:46.762 E (55322) task_wdt:  - loopTask (CPU 1)
+21:58:46.762 E (55322) task_wdt: Tasks currently running:
+21:58:46.762 E (55322) task_wdt: CPU 0: IDLE0
+21:58:46.762 E (55322) task_wdt: CPU 1: loopTask
+21:58:46.762 E (55322) task_wdt: Aborting.
+21:58:46.762 E (55322) task_wdt: Print CPU 1 backtrace
+21:58:46.762 
+21:58:46.762 
+21:58:46.762 
+21:58:46.762 
+21:58:46.762 Backtrace: 0x400d4411:0x3ffb20f0 0x400e890c:0x3ffb2120 0x4008c669:0x3ffb2150
+21:58:46.762 
+21:58:46.762 
+21:58:46.762 
+21:58:46.762 
+21:58:46.762 ELF file SHA256: 4112bb891
+21:58:46.762 
+21:58:46.964 Rebooting...
+21:58:46.964 ets Jul 29 2019 12:21:46
+21:58:46.964 
+21:58:46.964 rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+21:58:46.964 configsip: 0, SPIWP:0xee
+21:58:46.964 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+21:58:46.964 mode:DIO, clock div:2
+21:58:46.964 load:0x3fff0030,len:4640
+21:58:46.964 load:0x40078000,len:15632
+21:58:46.964 load:0x40080400,len:3164
+21:58:46.964 entry 0x4008059c
+21:58:47.973 
+21:58:50.008 [WiFi] Đang kết nối tới "anhdt"....
+21:58:50.008 [WiFi] Đã kết nối! IP: 192.168.23.109
+21:58:50.008 [System] Khởi động hoàn tất!
+21:58:50.008 [System] Điều khiển từ xa qua ThingSpeak TalkBack: AUTO | ON | OFF
+21:58:50.008 [System] ⚠️ Chưa cấu hình TS_TALKBACK_ID trong secrets.h
+21:58:50.008 
+21:58:50.008 [T] setup_done t=2666
+21:58:50.008 [T] loop t=2666 dt=0
+21:58:50.213 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 53)
+21:58:50.213 [Sensor] ADC raw: 53 → LỖI
+21:58:51.233 [T] write_fields 950 ms (HTTP 200)
+21:58:51.233 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:58:51.233 [T] first_write_ok t=3850
+21:58:52.250 [T] loop t=4861 dt=2195
+21:58:52.454 [Sensor] ADC raw: 96 → LỖI

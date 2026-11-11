@@ -1,0 +1,337 @@
+22:33:16.172 ets Jul 29 2019 12:21:46
+22:33:16.172 
+22:33:16.172 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+22:33:16.172 configsip: 0, SPIWP:0xee
+22:33:16.172 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+22:33:16.172 mode:DIO, clock div:2
+22:33:16.172 load:0x3fff0030,len:4640
+22:33:16.172 load:0x40078000,len:15632
+22:33:16.172 load:0x40080400,len:3164
+22:33:16.172 entry 0x4008059c
+22:33:16.990 
+22:33:18.617 [WiFi] Đang kết nối tới "anhdt"...
+22:33:18.618 [WiFi] Đã kết nối! IP: 192.168.23.109
+22:33:18.618 [System] Khởi động hoàn tất!
+22:33:18.618 [System] Điều khiển từ xa qua ThingSpeak TalkBack: AUTO | ON | OFF
+22:33:18.618 
+22:33:18.618 [T] setup_done t=2168
+22:33:18.618 [T] loop t=2168 dt=0
+22:33:18.821 [Sensor] ADC raw: 378 → Độ ẩm: 100%
+22:33:20.041 [T] write_fields 1125 ms (HTTP 200)
+22:33:20.042 [ThingSpeak] Gửi thành công: ẩm=100%, bơm=TẮT, chế độ=0, lỗi=0
+22:33:20.042 [T] first_write_ok t=3516
+22:33:21.064 [T] loop t=4528 dt=2360
+22:33:21.269 [Sensor] ADC raw: 377 → Độ ẩm: 100%
+22:33:22.294 [T] loop t=5750 dt=1222
+22:33:25.962 [T] talkback_execute 3776 ms (HTTP 200)
+22:33:26.167 [Sensor] ADC raw: 306 → Độ ẩm: 100%
+22:33:27.181 [T] loop t=10754 dt=5004
+22:33:28.200 [T] talkback_execute 919 ms (HTTP 200)
+22:33:28.403 [Sensor] ADC raw: 319 → Độ ẩm: 100%
+22:33:29.425 [T] loop t=12901 dt=2147
+22:33:29.627 [Sensor] ADC raw: 350 → Độ ẩm: 100%
+22:33:30.646 [T] loop t=14121 dt=1220
+22:33:30.848 [Sensor] ADC raw: 374 → Độ ẩm: 100%
+22:33:31.865 [T] loop t=15341 dt=1220
+22:33:32.068 [Sensor] ADC raw: 394 → Độ ẩm: 100%
+22:33:33.091 [T] loop t=16561 dt=1220
+22:33:33.902 [T] talkback_execute 945 ms (HTTP 200)
+22:33:34.308 [Sensor] ADC raw: 382 → Độ ẩm: 100%
+22:33:35.125 [T] loop t=18734 dt=2173
+22:33:35.535 [Sensor] ADC raw: 400 → Độ ẩm: 100%
+22:33:36.347 [T] loop t=19954 dt=1220
+22:33:36.753 [Sensor] ADC raw: 420 → Độ ẩm: 100%
+22:33:37.771 [T] loop t=21174 dt=1220
+22:33:37.977 [Sensor] ADC raw: 434 → Độ ẩm: 100%
+22:33:38.791 [T] loop t=22394 dt=1220
+22:33:39.798 [T] talkback_execute 964 ms (HTTP 200)
+22:33:39.799 [TalkBack] Đổi chế độ: AUTO → MANUAL_ON
+22:33:39.799 [T] mode_change MANUAL_ON t=23359
+22:33:40.004 [Sensor] ADC raw: 409 → Độ ẩm: 100%
+22:33:40.004 [Pump] BẬT (thủ công)
+22:33:40.004 [T] pump_on t=23583
+22:33:41.025 [T] write_fields 895 ms (HTTP 200)
+22:33:41.025 [ThingSpeak] Gửi thành công: ẩm=100%, bơm=BẬT, chế độ=1, lỗi=0
+22:33:42.045 [T] loop t=25480 dt=3086
+22:33:42.248 [Sensor] ADC raw: 399 → Độ ẩm: 100%
+22:33:43.272 [T] loop t=26702 dt=1222
+22:33:43.475 [Sensor] ADC raw: 421 → Độ ẩm: 100%
+22:33:44.490 [T] loop t=27922 dt=1220
+22:33:45.506 [T] talkback_execute 989 ms (HTTP 200)
+22:33:45.710 [Sensor] ADC raw: 402 → Độ ẩm: 100%
+22:33:46.726 [T] loop t=30138 dt=2216
+22:33:46.927 [Sensor] ADC raw: 427 → Độ ẩm: 100%
+22:33:47.943 [T] loop t=31358 dt=1220
+22:33:48.149 [Sensor] ADC raw: 441 → Độ ẩm: 100%
+22:33:49.168 [T] loop t=32578 dt=1220
+22:33:49.374 [Sensor] ADC raw: 456 → Độ ẩm: 100%
+22:33:50.190 [T] loop t=33798 dt=1220
+22:33:51.613 [T] talkback_execute 1256 ms (HTTP 200)
+22:33:51.819 [Sensor] ADC raw: 420 → Độ ẩm: 100%
+22:33:52.832 [T] loop t=36281 dt=2483
+22:33:53.037 [Sensor] ADC raw: 442 → Độ ẩm: 100%
+22:33:54.049 [T] loop t=37501 dt=1220
+22:33:54.252 [Sensor] ADC raw: 454 → Độ ẩm: 100%
+22:33:55.270 [T] loop t=38721 dt=1220
+22:33:55.473 [Sensor] ADC raw: 465 → Độ ẩm: 100%
+22:33:56.490 [T] loop t=39941 dt=1220
+22:33:57.303 [T] talkback_execute 911 ms (HTTP 200)
+22:33:57.508 [Sensor] ADC raw: 435 → Độ ẩm: 100%
+22:33:58.528 [T] loop t=42079 dt=2138
+22:33:58.735 [Sensor] ADC raw: 459 → Độ ẩm: 100%
+22:33:59.754 [T] loop t=43299 dt=1220
+22:33:59.958 [Sensor] ADC raw: 469 → Độ ẩm: 100%
+22:34:00.977 [T] write_fields 908 ms (HTTP 200)
+22:34:00.977 [ThingSpeak] Gửi thành công: ẩm=100%, bơm=BẬT, chế độ=1, lỗi=0
+22:34:01.998 [T] loop t=45430 dt=2131
+22:34:08.300 [T] talkback_execute 6356 ms (HTTP -11)
+22:34:08.300 [TalkBack] Đọc lệnh thất bại: HTTP -11
+22:34:08.506 [Sensor] ADC raw: 301 → Độ ẩm: 100%
+22:34:09.525 [T] loop t=53012 dt=7582
+22:34:10.544 [T] talkback_execute 980 ms (HTTP 200)
+22:34:10.544 [TalkBack] Đổi chế độ: MANUAL_ON → AUTO
+22:34:10.544 [T] mode_change AUTO t=53994
+22:34:10.748 [Sensor] ADC raw: 312 → Độ ẩm: 100%
+22:34:10.749 [Pump] TẮT (tự động — độ ẩm 100% ≥ ngưỡng 60%)
+22:34:10.749 [T] pump_off t=54218
+22:34:11.763 [T] loop t=55219 dt=2207
+22:34:11.967 [Sensor] ADC raw: 349 → Độ ẩm: 100%
+22:34:12.988 [T] loop t=56440 dt=1221
+22:34:13.192 [Sensor] ADC raw: 381 → Độ ẩm: 100%
+22:34:14.210 [T] loop t=57660 dt=1220
+22:34:14.414 [Sensor] ADC raw: 387 → Độ ẩm: 100%
+22:34:15.431 [T] loop t=58880 dt=1220
+22:34:17.461 [T] talkback_execute 2180 ms (HTTP 200)
+22:34:17.869 [Sensor] ADC raw: 352 → Độ ẩm: 100%
+22:34:21.535 [T] write_fields 3752 ms (HTTP 200)
+22:34:21.535 [ThingSpeak] Gửi thành công: ẩm=100%, bơm=TẮT, chế độ=0, lỗi=0
+22:34:22.558 [T] loop t=66041 dt=7161
+22:34:25.207 [T] talkback_execute 2673 ms (HTTP 200)
+22:34:25.412 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 248)
+22:34:25.412 [Sensor] ADC raw: 248 → LỖI
+22:34:26.433 [T] loop t=69942 dt=3901
+22:34:26.635 [Sensor] Cảm biến hoạt động lại (ADC 292)
+22:34:26.636 [Sensor] ADC raw: 292 → Độ ẩm: 100%
+22:34:27.652 [T] loop t=71162 dt=1220
+22:34:31.523 [T] talkback_execute 3891 ms (HTTP 200)
+22:34:31.524 [TalkBack] Đổi chế độ: AUTO → MANUAL_OFF
+22:34:31.524 [T] mode_change MANUAL_OFF t=75054
+22:34:31.727 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 244)
+22:34:31.727 [Sensor] ADC raw: 244 → LỖI
+22:34:32.749 [T] loop t=76280 dt=5118
+22:34:33.765 [T] talkback_execute 930 ms (HTTP 200)
+22:34:33.967 [Sensor] ADC raw: 265 → LỖI
+22:34:34.781 [T] write_fields 915 ms (HTTP -401)
+22:34:34.781 [ThingSpeak] Lỗi: HTTP -401
+22:34:35.800 [T] loop t=79353 dt=3073
+22:34:36.006 [Sensor] Cảm biến hoạt động lại (ADC 280)
+22:34:36.007 [Sensor] ADC raw: 280 → Độ ẩm: 100%
+22:34:37.025 [T] loop t=80575 dt=1222
+22:34:37.228 [Sensor] ADC raw: 312 → Độ ẩm: 100%
+22:34:38.244 [T] loop t=81795 dt=1220
+22:34:39.257 [T] talkback_execute 865 ms (HTTP 200)
+22:34:39.462 [Sensor] ADC raw: 313 → Độ ẩm: 100%
+22:34:40.477 [T] loop t=83888 dt=2093
+22:34:40.682 [Sensor] ADC raw: 340 → Độ ẩm: 100%
+22:34:41.698 [T] loop t=85108 dt=1220
+22:34:41.903 [Sensor] ADC raw: 363 → Độ ẩm: 100%
+22:34:42.917 [T] loop t=86328 dt=1220
+22:34:43.118 [Sensor] ADC raw: 384 → Độ ẩm: 100%
+22:34:44.134 [T] loop t=87548 dt=1220
+22:34:44.949 [T] talkback_execute 916 ms (HTTP 200)
+22:34:45.151 [Sensor] ADC raw: 373 → Độ ẩm: 100%
+22:34:46.164 [T] loop t=89691 dt=2143
+22:34:46.369 [Sensor] ADC raw: 393 → Độ ẩm: 100%
+22:34:47.385 [T] loop t=90911 dt=1220
+22:34:47.586 [Sensor] ADC raw: 409 → Độ ẩm: 100%
+22:34:48.606 [T] loop t=92131 dt=1220
+22:34:48.810 [Sensor] ADC raw: 429 → Độ ẩm: 100%
+22:34:49.830 [T] loop t=93351 dt=1220
+22:34:50.850 [T] talkback_execute 961 ms (HTTP 200)
+22:34:51.055 [Sensor] ADC raw: 402 → Độ ẩm: 100%
+22:34:52.073 [T] loop t=95540 dt=2189
+22:34:52.275 [Sensor] ADC raw: 424 → Độ ẩm: 100%
+22:34:53.295 [T] loop t=96760 dt=1220
+22:34:53.498 [Sensor] ADC raw: 435 → Độ ẩm: 100%
+22:34:55.132 [T] write_fields 1728 ms (HTTP 200)
+22:34:55.132 [ThingSpeak] Gửi thành công: ẩm=100%, bơm=TẮT, chế độ=2, lỗi=0
+22:34:56.153 [T] loop t=99710 dt=2950
+22:34:57.166 [T] talkback_execute 944 ms (HTTP 200)
+22:34:57.166 [TalkBack] Đổi chế độ: MANUAL_OFF → AUTO
+22:34:57.166 [T] mode_change AUTO t=100656
+22:34:57.372 [Sensor] ADC raw: 365 → Độ ẩm: 100%
+22:34:58.387 [T] loop t=101881 dt=2171
+22:34:58.588 [Sensor] ADC raw: 393 → Độ ẩm: 100%
+22:34:59.609 [T] loop t=103102 dt=1221
+22:34:59.813 [Sensor] ADC raw: 412 → Độ ẩm: 100%
+22:35:00.833 [T] loop t=104322 dt=1220
+22:35:01.039 [Sensor] ADC raw: 430 → Độ ẩm: 100%
+22:35:02.051 [T] loop t=105542 dt=1220
+22:35:03.068 [T] talkback_execute 958 ms (HTTP 200)
+22:35:03.272 [Sensor] ADC raw: 412 → Độ ẩm: 100%
+22:35:04.283 [T] loop t=107727 dt=2185
+22:35:04.484 [Sensor] ADC raw: 429 → Độ ẩm: 100%
+22:35:05.495 [T] loop t=108948 dt=1221
+22:35:05.700 [Sensor] ADC raw: 444 → Độ ẩm: 100%
+22:35:06.715 [T] loop t=110168 dt=1220
+22:35:06.917 [Sensor] ADC raw: 460 → Độ ẩm: 100%
+22:35:07.925 [T] loop t=111388 dt=1220
+22:35:08.943 [T] talkback_execute 986 ms (HTTP 200)
+22:35:09.149 [Sensor] ADC raw: 431 → Độ ẩm: 100%
+22:35:10.167 [T] loop t=113602 dt=2214
+22:35:10.373 [Sensor] ADC raw: 449 → Độ ẩm: 100%
+22:35:11.183 [T] write_fields 948 ms (HTTP 200)
+22:35:11.183 [ThingSpeak] Gửi thành công: ẩm=100%, bơm=TẮT, chế độ=0, lỗi=0
+22:35:12.206 [T] loop t=115773 dt=2171
+22:35:12.410 [Sensor] ADC raw: 430 → Độ ẩm: 100%
+22:35:13.432 [T] loop t=116995 dt=1222
+22:35:14.444 [T] talkback_execute 969 ms (HTTP 200)
+22:35:14.648 [Sensor] ADC raw: 414 → Độ ẩm: 100%
+22:35:15.666 [T] loop t=119192 dt=2197
+22:35:15.868 [Sensor] ADC raw: 435 → Độ ẩm: 100%
+22:35:16.886 [T] loop t=120413 dt=1221
+22:35:17.090 [Sensor] ADC raw: 448 → Độ ẩm: 100%
+22:35:18.100 [T] loop t=121633 dt=1220
+22:35:18.305 [Sensor] ADC raw: 462 → Độ ẩm: 100%
+22:35:19.329 [T] loop t=122853 dt=1220
+22:35:20.349 [T] talkback_execute 1006 ms (HTTP 200)
+22:35:20.349 [TalkBack] Đổi chế độ: AUTO → MANUAL_ON
+22:35:20.349 [T] mode_change MANUAL_ON t=123861
+22:35:20.553 [Sensor] ADC raw: 435 → Độ ẩm: 100%
+22:35:20.553 [Pump] BẬT (thủ công)
+22:35:20.553 [T] pump_on t=124085
+22:35:21.573 [T] loop t=125086 dt=2233
+22:35:21.778 [Sensor] ADC raw: 456 → Độ ẩm: 100%
+22:35:22.789 [T] loop t=126306 dt=1220
+22:35:22.995 [Sensor] ADC raw: 467 → Độ ẩm: 100%
+22:35:24.015 [T] loop t=127526 dt=1220
+22:35:24.222 [Sensor] ADC raw: 479 → Độ ẩm: 100%
+22:35:25.245 [T] loop t=128746 dt=1220
+22:35:28.098 [T] talkback_execute 2844 ms (HTTP 200)
+22:35:28.302 [Sensor] ADC raw: 393 → Độ ẩm: 100%
+22:35:29.319 [T] loop t=132818 dt=4072
+22:35:29.524 [Sensor] ADC raw: 420 → Độ ẩm: 100%
+22:35:33.187 [T] write_fields 3569 ms (HTTP 200)
+22:35:33.187 [ThingSpeak] Gửi thành công: ẩm=100%, bơm=BẬT, chế độ=1, lỗi=0
+22:35:34.202 [T] loop t=137609 dt=4791
+22:35:39.494 [T] talkback_execute 5340 ms (HTTP -11)
+22:35:39.494 [TalkBack] Đọc lệnh thất bại: HTTP -11
+22:35:39.701 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 253)
+22:35:39.701 [Sensor] ADC raw: 253 → LỖI
+22:35:40.737 [T] loop t=144174 dt=6565
+22:35:41.552 [T] talkback_execute 848 ms (HTTP 200)
+22:35:41.760 [Sensor] ADC raw: 276 → LỖI
+22:35:42.774 [T] loop t=146250 dt=2076
+22:35:42.978 [Sensor] Cảm biến hoạt động lại (ADC 314)
+22:35:42.979 [Sensor] ADC raw: 314 → Độ ẩm: 100%
+22:35:43.988 [T] loop t=147471 dt=1221
+22:35:44.189 [Sensor] ADC raw: 340 → Độ ẩm: 100%
+22:35:45.202 [T] loop t=148691 dt=1220
+22:35:45.405 [Sensor] ADC raw: 365 → Độ ẩm: 100%
+22:35:46.427 [T] loop t=149911 dt=1220
+22:35:47.440 [T] talkback_execute 1016 ms (HTTP 200)
+22:35:47.644 [Sensor] ADC raw: 349 → Độ ẩm: 100%
+22:35:48.663 [T] loop t=152155 dt=2244
+22:35:48.868 [Sensor] ADC raw: 377 → Độ ẩm: 100%
+22:35:49.882 [T] loop t=153375 dt=1220
+22:35:50.087 [Sensor] ADC raw: 397 → Độ ẩm: 100%
+22:35:51.109 [T] write_fields 909 ms (HTTP 200)
+22:35:51.109 [ThingSpeak] Gửi thành công: ẩm=100%, bơm=BẬT, chế độ=1, lỗi=0
+22:35:51.926 [T] loop t=155506 dt=2131
+22:35:52.946 [T] talkback_execute 853 ms (HTTP 200)
+22:35:53.150 [Sensor] ADC raw: 351 → Độ ẩm: 100%
+22:35:54.165 [T] loop t=157587 dt=2081
+22:35:54.368 [Sensor] ADC raw: 385 → Độ ẩm: 100%
+22:35:55.389 [T] loop t=158807 dt=1220
+22:35:55.591 [Sensor] ADC raw: 403 → Độ ẩm: 100%
+22:35:56.609 [T] loop t=160027 dt=1220
+22:35:56.812 [Sensor] ADC raw: 421 → Độ ẩm: 100%
+22:35:57.825 [T] loop t=161247 dt=1220
+22:35:58.640 [T] talkback_execute 957 ms (HTTP 200)
+22:35:58.843 [Sensor] ADC raw: 398 → Độ ẩm: 100%
+22:35:59.868 [T] loop t=163432 dt=2185
+22:36:00.068 [Sensor] ADC raw: 424 → Độ ẩm: 100%
+22:36:01.094 [T] loop t=164652 dt=1220
+22:36:01.295 [Sensor] ADC raw: 436 → Độ ẩm: 100%
+22:36:02.310 [T] loop t=165872 dt=1220
+22:36:02.512 [Sensor] ADC raw: 449 → Độ ẩm: 100%
+22:36:03.534 [T] loop t=167092 dt=1220
+22:36:08.217 [T] talkback_execute 4617 ms (HTTP 200)
+22:36:08.421 [Sensor] ADC raw: 333 → Độ ẩm: 100%
+22:36:09.434 [T] loop t=172937 dt=5845
+22:36:11.266 [T] talkback_execute 1789 ms (HTTP 200)
+22:36:11.469 [Sensor] ADC raw: 318 → Độ ẩm: 100%
+22:36:12.490 [T] loop t=175954 dt=3017
+22:36:12.694 [Sensor] ADC raw: 356 → Độ ẩm: 100%
+22:36:13.505 [T] write_fields 890 ms (HTTP 200)
+22:36:13.505 [ThingSpeak] Gửi thành công: ẩm=100%, bơm=BẬT, chế độ=1, lỗi=0
+22:36:14.524 [T] loop t=178066 dt=2112
+22:36:18.194 [T] talkback_execute 3588 ms (HTTP 200)
+22:36:18.402 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 271)
+22:36:18.402 [Sensor] ADC raw: 271 → LỖI
+22:36:19.422 [T] loop t=182882 dt=4816
+22:36:19.629 [Sensor] Cảm biến hoạt động lại (ADC 313)
+22:36:19.629 [Sensor] ADC raw: 313 → Độ ẩm: 100%
+22:36:20.649 [T] loop t=184102 dt=1220
+22:36:21.462 [T] talkback_execute 934 ms (HTTP 200)
+22:36:21.869 [Sensor] ADC raw: 316 → Độ ẩm: 100%
+22:36:22.679 [T] loop t=186263 dt=2161
+22:36:23.086 [Sensor] ADC raw: 343 → Độ ẩm: 100%
+22:36:23.896 [T] loop t=187483 dt=1220
+22:36:24.302 [Sensor] ADC raw: 370 → Độ ẩm: 100%
+22:36:25.319 [T] loop t=188703 dt=1220
+22:36:25.523 [Sensor] ADC raw: 389 → Độ ẩm: 100%
+22:36:26.336 [T] loop t=189923 dt=1220
+22:36:27.348 [T] talkback_execute 963 ms (HTTP 200)
+22:36:27.552 [Sensor] ADC raw: 373 → Độ ẩm: 100%
+22:36:28.574 [T] loop t=192114 dt=2191
+22:36:28.777 [Sensor] ADC raw: 396 → Độ ẩm: 100%
+22:36:29.795 [T] loop t=193334 dt=1220
+22:36:29.997 [Sensor] ADC raw: 413 → Độ ẩm: 100%
+22:36:31.019 [T] loop t=194554 dt=1220
+22:36:31.225 [Sensor] ADC raw: 429 → Độ ẩm: 100%
+22:36:32.243 [T] loop t=195774 dt=1220
+22:36:33.253 [T] talkback_execute 973 ms (HTTP 200)
+22:36:33.457 [Sensor] ADC raw: 409 → Độ ẩm: 100%
+22:36:34.478 [T] loop t=197975 dt=2201
+22:36:34.678 [Sensor] ADC raw: 431 → Độ ẩm: 100%
+22:36:36.513 [T] write_fields 1871 ms (HTTP 200)
+22:36:36.514 [ThingSpeak] Gửi thành công: ẩm=100%, bơm=BẬT, chế độ=1, lỗi=0
+22:36:37.533 [T] loop t=201068 dt=3093
+22:36:42.219 [T] talkback_execute 4538 ms (HTTP 200)
+22:36:42.423 [Sensor] ADC raw: 284 → Độ ẩm: 100%
+22:36:43.445 [T] loop t=206834 dt=5766
+22:36:46.494 [T] talkback_execute 3101 ms (HTTP 200)
+22:36:46.695 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 261)
+22:36:46.695 [Sensor] ADC raw: 261 → LỖI
+22:36:47.713 [T] loop t=211163 dt=4329
+22:36:47.919 [Sensor] Cảm biến hoạt động lại (ADC 301)
+22:36:47.919 [Sensor] ADC raw: 301 → Độ ẩm: 100%
+22:36:48.939 [T] loop t=212383 dt=1220
+22:36:53.217 [T] talkback_execute 4399 ms (HTTP 200)
+22:36:53.625 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 242)
+22:36:53.625 [Sensor] ADC raw: 242 → LỖI
+22:36:54.440 [T] loop t=218009 dt=5626
+22:36:55.455 [T] talkback_execute 935 ms (HTTP 200)
+22:36:55.660 [Sensor] ADC raw: 261 → LỖI
+22:36:56.681 [T] write_fields 928 ms (HTTP 200)
+22:36:56.681 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=BẬT, chế độ=1, lỗi=1
+22:36:57.694 [T] loop t=221102 dt=3093
+22:36:57.895 [Sensor] ADC raw: 276 → LỖI
+22:36:58.915 [T] loop t=222324 dt=1222
+22:36:59.120 [Sensor] Cảm biến hoạt động lại (ADC 308)
+22:36:59.120 [Sensor] ADC raw: 308 → Độ ẩm: 100%
+22:37:00.139 [T] loop t=223544 dt=1220
+22:37:01.157 [T] talkback_execute 1054 ms (HTTP 200)
+22:37:01.158 [TalkBack] Đổi chế độ: MANUAL_ON → AUTO
+22:37:01.158 [T] mode_change AUTO t=224600
+22:37:01.358 [Sensor] ADC raw: 304 → Độ ẩm: 100%
+22:37:01.358 [Pump] TẮT (tự động — độ ẩm 100% ≥ ngưỡng 60%)
+22:37:01.358 [T] pump_off t=224824
+22:37:02.379 [T] loop t=225825 dt=2281
+22:37:02.584 [Sensor] ADC raw: 338 → Độ ẩm: 100%
+22:37:03.605 [T] loop t=227045 dt=1220
+22:37:03.810 [Sensor] ADC raw: 362 → Độ ẩm: 100%
+22:37:04.828 [T] loop t=228265 dt=1220
+22:37:05.029 [Sensor] ADC raw: 381 → Độ ẩm: 100%
+22:37:06.047 [T] loop t=229485 dt=1220

@@ -1,0 +1,13 @@
+flowchart LR
+    subgraph FW[Firmware ESP32]
+      W[maintainWiFi]
+      A[readMoisturePercent] --> B[controlPump] --> SP[setPump] --> RL[GPIO26 / relay]
+      C[readPumpCommand] --> AM[applyMode] --> B
+      B --> D[sendToThingSpeak]
+      WD[Task Watchdog 30 s]
+    end
+    D -- "field1..4" --> TS[(ThingSpeak Channel)]
+    TB[(TalkBack)] -- "commands/execute" --> C
+    TS -- "feeds/last.json, feeds.json" --> API[NestJS AppService]
+    API --> UI[index.html + Chart.js]
+    UI -- "POST /api/pump/mode" --> API -- "commands.json" --> TB

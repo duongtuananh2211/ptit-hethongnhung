@@ -1,0 +1,13 @@
+flowchart TD
+    Start([Cấp nguồn / reset]) --> Setup["setup(): relay = LOW, ADC 12-bit/11dB"]
+    Setup --> WiFi["startWiFi(): chờ tối đa 10 s, không có mạng vẫn chạy tiếp"]
+    WiFi --> TSB["ThingSpeak.begin()"] --> WDT["setupWatchdog(): 30 s"] --> Loop
+    Loop{{"loop() — mỗi ~1.2 s"}} --> RST["esp_task_wdt_reset()"]
+    RST --> MW["maintainWiFi(): mất mạng → reconnect mỗi 10 s (không chờ);<br>offline > 60 s và đang thủ công → AUTO"]
+    MW --> Q1{"Đã quá 5 s<br>từ lần hỏi lệnh?"}
+    Q1 -- Có --> RC["readPumpCommand(): TalkBack execute → applyMode()"] --> RS
+    Q1 -- Không --> RS["readMoisturePercent(): bật GPIO25, chờ 200 ms,<br>TB 10 mẫu, tắt GPIO25 → % hoặc −1 (lỗi)"]
+    RS --> CP["controlPump(%)"]
+    CP --> Q2{"Cần gửi?<br>lần đầu / đủ 20 s /<br>đổi chế độ và ≥ 15.5 s"}
+    Q2 -- Có --> SD["sendToThingSpeak(): field1..4"] --> W
+    Q2 -- Không --> W["delay(1000)"] --> Loop

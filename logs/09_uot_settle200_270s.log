@@ -1,0 +1,542 @@
+21:14:55.015 [Sensor] ADC raw: 419 → LỖI
+21:14:55.015 [Sensor] ADC raw: 419 → LỖI
+21:14:55.015 [Sensor] ADC raw: 419 → LỖI
+21:14:55.015 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 [Sensor] ADC raw: 419 → LỖI
+21:14:55.016 ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.016 
+21:14:55.016 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:ets Jul 29 2019 12:21:46
+21:14:55.017 
+21:14:55.017 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+21:14:55.017 configsip: 0, SPIWP:0xee
+21:14:55.017 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+21:14:55.017 mode:DIO, clock div:2
+21:14:55.017 load:0x3fff0030,len:4640
+21:14:55.017 load:0x40078000,len:15632
+21:14:55.017 load:0x40080400,len:3164
+21:14:55.017 entry 0x4008059c
+21:14:55.830 
+21:14:57.460 [WiFi] Đang kết nối tới "anhdt"...
+21:14:57.460 [WiFi] Đã kết nối! IP: 192.168.23.109
+21:14:57.460 [System] Khởi động hoàn tất!
+21:14:57.460 [System] Điều khiển từ xa qua ThingSpeak TalkBack: AUTO | ON | OFF
+21:14:57.460 [System] ⚠️ Chưa cấu hình TS_TALKBACK_ID trong secrets.h
+21:14:57.460 
+21:14:57.460 [T] setup_done t=2139
+21:14:57.460 [T] loop t=2139 dt=0
+21:14:57.665 [Sensor] LỖI cảm biến — ADC ngoài dải hợp lệ (ADC 359)
+21:14:57.665 [Sensor] ADC raw: 359 → LỖI
+21:14:58.686 [T] write_fields 908 ms (HTTP -401)
+21:14:58.687 [ThingSpeak] Lỗi: HTTP -401
+21:14:59.500 [T] loop t=4282 dt=2143
+21:14:59.906 [Sensor] ADC raw: 360 → LỖI
+21:15:00.715 [T] loop t=5502 dt=1220
+21:15:01.120 [Sensor] ADC raw: 385 → LỖI
+21:15:01.933 [T] loop t=6722 dt=1220
+21:15:02.344 [Sensor] ADC raw: 400 → LỖI
+21:15:03.156 [T] loop t=7942 dt=1220
+21:15:03.567 [Sensor] ADC raw: 418 → LỖI
+21:15:04.375 [T] loop t=9162 dt=1220
+21:15:04.782 [Sensor] ADC raw: 430 → LỖI
+21:15:05.592 [T] loop t=10382 dt=1220
+21:15:06.001 [Sensor] ADC raw: 440 → LỖI
+21:15:06.812 [T] loop t=11602 dt=1220
+21:15:07.221 [Sensor] ADC raw: 447 → LỖI
+21:15:08.228 [T] loop t=12822 dt=1220
+21:15:08.428 [Sensor] ADC raw: 455 → LỖI
+21:15:09.441 [T] loop t=14042 dt=1220
+21:15:09.643 [Sensor] ADC raw: 463 → LỖI
+21:15:10.664 [T] loop t=15262 dt=1220
+21:15:10.866 [Sensor] ADC raw: 467 → LỖI
+21:15:11.889 [T] loop t=16482 dt=1220
+21:15:12.095 [Sensor] ADC raw: 475 → LỖI
+21:15:13.110 [T] loop t=17702 dt=1220
+21:15:13.316 [Sensor] ADC raw: 470 → LỖI
+21:15:14.328 [T] loop t=18922 dt=1220
+21:15:14.533 [Sensor] ADC raw: 488 → LỖI
+21:15:15.551 [T] loop t=20142 dt=1220
+21:15:15.756 [Sensor] ADC raw: 491 → LỖI
+21:15:16.570 [T] loop t=21362 dt=1220
+21:15:16.976 [Sensor] ADC raw: 496 → LỖI
+21:15:17.790 [T] loop t=22582 dt=1220
+21:15:18.198 [Sensor] ADC raw: 499 → LỖI
+21:15:19.012 [T] write_fields 854 ms (HTTP 200)
+21:15:19.013 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:15:19.013 [T] first_write_ok t=23658
+21:15:20.029 [T] loop t=24670 dt=2088
+21:15:20.233 [Sensor] ADC raw: 470 → LỖI
+21:15:21.250 [T] loop t=25890 dt=1220
+21:15:21.456 [Sensor] ADC raw: 483 → LỖI
+21:15:22.474 [T] loop t=27110 dt=1220
+21:15:22.677 [Sensor] ADC raw: 492 → LỖI
+21:15:23.695 [T] loop t=28330 dt=1220
+21:15:23.898 [Sensor] ADC raw: 497 → LỖI
+21:15:24.915 [T] loop t=29550 dt=1220
+21:15:25.120 [Sensor] ADC raw: 507 → LỖI
+21:15:26.141 [T] loop t=30770 dt=1220
+21:15:26.346 [Sensor] ADC raw: 510 → LỖI
+21:15:27.362 [T] loop t=31990 dt=1220
+21:15:27.563 [Sensor] ADC raw: 505 → LỖI
+21:15:28.575 [T] loop t=33210 dt=1220
+21:15:28.776 [Sensor] ADC raw: 521 → LỖI
+21:15:29.784 [T] loop t=34430 dt=1220
+21:15:29.987 [Sensor] ADC raw: 526 → LỖI
+21:15:31.003 [T] loop t=35650 dt=1220
+21:15:31.206 [Sensor] ADC raw: 527 → LỖI
+21:15:32.225 [T] loop t=36870 dt=1220
+21:15:32.429 [Sensor] ADC raw: 533 → LỖI
+21:15:33.450 [T] loop t=38090 dt=1220
+21:15:33.656 [Sensor] ADC raw: 528 → LỖI
+21:15:34.675 [T] loop t=39310 dt=1220
+21:15:34.878 [Sensor] ADC raw: 537 → LỖI
+21:15:35.896 [T] loop t=40530 dt=1220
+21:15:36.099 [Sensor] ADC raw: 542 → LỖI
+21:15:37.120 [T] loop t=41750 dt=1220
+21:15:37.324 [Sensor] ADC raw: 543 → LỖI
+21:15:38.336 [T] loop t=42970 dt=1220
+21:15:38.541 [Sensor] ADC raw: 547 → LỖI
+21:15:39.356 [T] write_fields 869 ms (HTTP 200)
+21:15:39.356 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:15:40.366 [T] loop t=45062 dt=2092
+21:15:40.570 [Sensor] ADC raw: 507 → LỖI
+21:15:41.585 [T] loop t=46282 dt=1220
+21:15:41.790 [Sensor] ADC raw: 523 → LỖI
+21:15:42.810 [T] loop t=47502 dt=1220
+21:15:43.013 [Sensor] ADC raw: 527 → LỖI
+21:15:44.033 [T] loop t=48722 dt=1220
+21:15:44.236 [Sensor] ADC raw: 537 → LỖI
+21:15:45.254 [T] loop t=49942 dt=1220
+21:15:45.459 [Sensor] ADC raw: 541 → LỖI
+21:15:46.474 [T] loop t=51162 dt=1220
+21:15:46.678 [Sensor] ADC raw: 543 → LỖI
+21:15:47.699 [T] loop t=52382 dt=1220
+21:15:47.903 [Sensor] ADC raw: 547 → LỖI
+21:15:48.920 [T] loop t=53602 dt=1220
+21:15:49.121 [Sensor] ADC raw: 552 → LỖI
+21:15:50.136 [T] loop t=54822 dt=1220
+21:15:50.339 [Sensor] ADC raw: 554 → LỖI
+21:15:51.355 [T] loop t=56042 dt=1220
+21:15:51.560 [Sensor] ADC raw: 556 → LỖI
+21:15:52.577 [T] loop t=57262 dt=1220
+21:15:52.779 [Sensor] ADC raw: 557 → LỖI
+21:15:53.802 [T] loop t=58482 dt=1220
+21:15:54.008 [Sensor] ADC raw: 558 → LỖI
+21:15:55.029 [T] loop t=59702 dt=1220
+21:15:55.233 [Sensor] ADC raw: 559 → LỖI
+21:15:56.241 [T] loop t=60922 dt=1220
+21:15:56.446 [Sensor] ADC raw: 558 → LỖI
+21:15:57.465 [T] loop t=62142 dt=1220
+21:15:57.670 [Sensor] ADC raw: 561 → LỖI
+21:15:58.690 [T] loop t=63362 dt=1220
+21:15:58.896 [Sensor] ADC raw: 563 → LỖI
+21:16:00.522 [T] write_fields 1678 ms (HTTP 200)
+21:16:00.522 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:16:01.530 [T] loop t=66263 dt=2901
+21:16:01.735 [Sensor] ADC raw: 499 → LỖI
+21:16:02.752 [T] loop t=67482 dt=1219
+21:16:02.957 [Sensor] ADC raw: 521 → LỖI
+21:16:03.968 [T] loop t=68702 dt=1220
+21:16:04.173 [Sensor] ADC raw: 529 → LỖI
+21:16:05.193 [T] loop t=69922 dt=1220
+21:16:05.395 [Sensor] ADC raw: 534 → LỖI
+21:16:06.409 [T] loop t=71142 dt=1220
+21:16:06.614 [Sensor] ADC raw: 536 → LỖI
+21:16:07.630 [T] loop t=72362 dt=1220
+21:16:07.834 [Sensor] ADC raw: 546 → LỖI
+21:16:08.848 [T] loop t=73582 dt=1220
+21:16:09.051 [Sensor] ADC raw: 551 → LỖI
+21:16:10.063 [T] loop t=74802 dt=1220
+21:16:10.268 [Sensor] ADC raw: 553 → LỖI
+21:16:11.284 [T] loop t=76022 dt=1220
+21:16:11.486 [Sensor] ADC raw: 559 → LỖI
+21:16:12.503 [T] loop t=77242 dt=1220
+21:16:12.706 [Sensor] ADC raw: 560 → LỖI
+21:16:13.723 [T] loop t=78462 dt=1220
+21:16:13.925 [Sensor] ADC raw: 563 → LỖI
+21:16:14.944 [T] loop t=79682 dt=1220
+21:16:15.146 [Sensor] ADC raw: 568 → LỖI
+21:16:16.165 [T] loop t=80902 dt=1220
+21:16:16.368 [Sensor] ADC raw: 571 → LỖI
+21:16:17.387 [T] loop t=82122 dt=1220
+21:16:17.588 [Sensor] ADC raw: 571 → LỖI
+21:16:18.601 [T] loop t=83342 dt=1220
+21:16:18.807 [Sensor] ADC raw: 572 → LỖI
+21:16:19.826 [T] loop t=84562 dt=1220
+21:16:20.030 [Sensor] ADC raw: 576 → LỖI
+21:16:20.838 [T] write_fields 841 ms (HTTP 200)
+21:16:20.838 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:16:21.855 [T] loop t=86626 dt=2064
+21:16:22.059 [Sensor] ADC raw: 544 → LỖI
+21:16:23.078 [T] loop t=87846 dt=1220
+21:16:23.281 [Sensor] ADC raw: 553 → LỖI
+21:16:24.300 [T] loop t=89066 dt=1220
+21:16:24.504 [Sensor] ADC raw: 557 → LỖI
+21:16:25.525 [T] loop t=90286 dt=1220
+21:16:25.730 [Sensor] ADC raw: 562 → LỖI
+21:16:26.745 [T] loop t=91506 dt=1220
+21:16:26.947 [Sensor] ADC raw: 564 → LỖI
+21:16:27.961 [T] loop t=92726 dt=1220
+21:16:28.163 [Sensor] ADC raw: 569 → LỖI
+21:16:29.179 [T] loop t=93946 dt=1220
+21:16:29.380 [Sensor] ADC raw: 571 → LỖI
+21:16:30.397 [T] loop t=95166 dt=1220
+21:16:30.599 [Sensor] ADC raw: 574 → LỖI
+21:16:31.616 [T] loop t=96386 dt=1220
+21:16:31.819 [Sensor] ADC raw: 578 → LỖI
+21:16:32.841 [T] loop t=97606 dt=1220
+21:16:33.045 [Sensor] ADC raw: 578 → LỖI
+21:16:34.062 [T] loop t=98826 dt=1220
+21:16:34.266 [Sensor] ADC raw: 580 → LỖI
+21:16:35.280 [T] loop t=100046 dt=1220
+21:16:35.484 [Sensor] ADC raw: 578 → LỖI
+21:16:36.496 [T] loop t=101266 dt=1220
+21:16:36.699 [Sensor] ADC raw: 583 → LỖI
+21:16:37.723 [T] loop t=102486 dt=1220
+21:16:37.924 [Sensor] ADC raw: 585 → LỖI
+21:16:38.944 [T] loop t=103706 dt=1220
+21:16:39.146 [Sensor] ADC raw: 583 → LỖI
+21:16:40.166 [T] loop t=104926 dt=1220
+21:16:40.371 [Sensor] ADC raw: 585 → LỖI
+21:16:41.387 [T] write_fields 938 ms (HTTP 200)
+21:16:41.388 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:16:42.404 [T] loop t=107087 dt=2161
+21:16:42.607 [Sensor] ADC raw: 554 → LỖI
+21:16:43.629 [T] loop t=108307 dt=1220
+21:16:43.835 [Sensor] ADC raw: 561 → LỖI
+21:16:44.855 [T] loop t=109527 dt=1220
+21:16:45.060 [Sensor] ADC raw: 575 → LỖI
+21:16:46.073 [T] loop t=110747 dt=1220
+21:16:46.275 [Sensor] ADC raw: 573 → LỖI
+21:16:47.295 [T] loop t=111967 dt=1220
+21:16:47.499 [Sensor] ADC raw: 575 → LỖI
+21:16:48.515 [T] loop t=113187 dt=1220
+21:16:48.718 [Sensor] ADC raw: 565 → LỖI
+21:16:49.737 [T] loop t=114407 dt=1220
+21:16:49.941 [Sensor] ADC raw: 564 → LỖI
+21:16:50.961 [T] loop t=115627 dt=1220
+21:16:51.162 [Sensor] ADC raw: 576 → LỖI
+21:16:52.178 [T] loop t=116847 dt=1220
+21:16:52.380 [Sensor] ADC raw: 584 → LỖI
+21:16:53.394 [T] loop t=118067 dt=1220
+21:16:53.595 [Sensor] ADC raw: 578 → LỖI
+21:16:54.612 [T] loop t=119287 dt=1220
+21:16:54.813 [Sensor] ADC raw: 580 → LỖI
+21:16:55.828 [T] loop t=120507 dt=1220
+21:16:56.031 [Sensor] ADC raw: 583 → LỖI
+21:16:57.045 [T] loop t=121727 dt=1220
+21:16:57.251 [Sensor] ADC raw: 588 → LỖI
+21:16:58.261 [T] loop t=122947 dt=1220
+21:16:58.465 [Sensor] ADC raw: 590 → LỖI
+21:16:59.485 [T] loop t=124167 dt=1220
+21:16:59.687 [Sensor] ADC raw: 584 → LỖI
+21:17:00.705 [T] loop t=125387 dt=1220
+21:17:00.909 [Sensor] ADC raw: 584 → LỖI
+21:17:03.142 [T] write_fields 2226 ms (HTTP 200)
+21:17:03.143 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:17:04.161 [T] loop t=128836 dt=3449
+21:17:04.365 [Sensor] ADC raw: 504 → LỖI
+21:17:05.386 [T] loop t=130055 dt=1219
+21:17:05.590 [Sensor] ADC raw: 529 → LỖI
+21:17:06.603 [T] loop t=131275 dt=1220
+21:17:06.808 [Sensor] ADC raw: 534 → LỖI
+21:17:07.826 [T] loop t=132495 dt=1220
+21:17:08.031 [Sensor] ADC raw: 540 → LỖI
+21:17:09.049 [T] loop t=133715 dt=1220
+21:17:09.254 [Sensor] ADC raw: 546 → LỖI
+21:17:10.270 [T] loop t=134935 dt=1220
+21:17:10.473 [Sensor] ADC raw: 550 → LỖI
+21:17:11.495 [T] loop t=136155 dt=1220
+21:17:11.698 [Sensor] ADC raw: 557 → LỖI
+21:17:12.710 [T] loop t=137375 dt=1220
+21:17:12.915 [Sensor] ADC raw: 567 → LỖI
+21:17:13.935 [T] loop t=138595 dt=1220
+21:17:14.137 [Sensor] ADC raw: 563 → LỖI
+21:17:15.152 [T] loop t=139815 dt=1220
+21:17:15.353 [Sensor] ADC raw: 568 → LỖI
+21:17:16.365 [T] loop t=141035 dt=1220
+21:17:16.570 [Sensor] ADC raw: 575 → LỖI
+21:17:17.589 [T] loop t=142255 dt=1220
+21:17:17.794 [Sensor] ADC raw: 574 → LỖI
+21:17:18.811 [T] loop t=143475 dt=1220
+21:17:19.016 [Sensor] ADC raw: 572 → LỖI
+21:17:20.031 [T] loop t=144695 dt=1220
+21:17:20.237 [Sensor] ADC raw: 578 → LỖI
+21:17:21.252 [T] loop t=145915 dt=1220
+21:17:21.455 [Sensor] ADC raw: 576 → LỖI
+21:17:22.267 [T] write_fields 925 ms (HTTP 200)
+21:17:22.471 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:17:23.284 [T] loop t=148063 dt=2148
+21:17:23.485 [Sensor] ADC raw: 545 → LỖI
+21:17:24.498 [T] loop t=149283 dt=1220
+21:17:24.703 [Sensor] ADC raw: 552 → LỖI
+21:17:25.721 [T] loop t=150503 dt=1220
+21:17:26.123 [Sensor] ADC raw: 559 → LỖI
+21:17:26.933 [T] loop t=151723 dt=1220
+21:17:27.338 [Sensor] ADC raw: 568 → LỖI
+21:17:28.147 [T] loop t=152943 dt=1220
+21:17:28.553 [Sensor] ADC raw: 566 → LỖI
+21:17:29.366 [T] loop t=154163 dt=1220
+21:17:29.774 [Sensor] ADC raw: 569 → LỖI
+21:17:30.583 [T] loop t=155383 dt=1220
+21:17:30.989 [Sensor] ADC raw: 571 → LỖI
+21:17:31.997 [T] loop t=156603 dt=1220
+21:17:32.199 [Sensor] ADC raw: 564 → LỖI
+21:17:33.215 [T] loop t=157823 dt=1220
+21:17:33.420 [Sensor] ADC raw: 578 → LỖI
+21:17:34.436 [T] loop t=159043 dt=1220
+21:17:34.641 [Sensor] ADC raw: 578 → LỖI
+21:17:35.658 [T] loop t=160263 dt=1220
+21:17:35.860 [Sensor] ADC raw: 586 → LỖI
+21:17:36.878 [T] loop t=161483 dt=1220
+21:17:37.082 [Sensor] ADC raw: 581 → LỖI
+21:17:38.099 [T] loop t=162703 dt=1220
+21:17:38.303 [Sensor] ADC raw: 585 → LỖI
+21:17:39.324 [T] loop t=163923 dt=1220
+21:17:39.527 [Sensor] ADC raw: 584 → LỖI
+21:17:40.545 [T] loop t=165143 dt=1220
+21:17:40.746 [Sensor] ADC raw: 588 → LỖI
+21:17:41.767 [T] loop t=166363 dt=1220
+21:17:41.970 [Sensor] ADC raw: 588 → LỖI
+21:17:44.808 [T] write_fields 2989 ms (HTTP 200)
+21:17:44.809 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:17:45.826 [T] loop t=170575 dt=4212
+21:17:46.031 [Sensor] ADC raw: 495 → LỖI
+21:17:47.050 [T] loop t=171795 dt=1220
+21:17:47.253 [Sensor] ADC raw: 508 → LỖI
+21:17:48.273 [T] loop t=173015 dt=1220
+21:17:48.479 [Sensor] ADC raw: 527 → LỖI
+21:17:49.497 [T] loop t=174235 dt=1220
+21:17:49.702 [Sensor] ADC raw: 532 → LỖI
+21:17:50.719 [T] loop t=175455 dt=1220
+21:17:50.919 [Sensor] ADC raw: 541 → LỖI
+21:17:51.939 [T] loop t=176675 dt=1220
+21:17:52.145 [Sensor] ADC raw: 548 → LỖI
+21:17:53.166 [T] loop t=177895 dt=1220
+21:17:53.372 [Sensor] ADC raw: 553 → LỖI
+21:17:54.390 [T] loop t=179115 dt=1220
+21:17:54.595 [Sensor] ADC raw: 556 → LỖI
+21:17:55.611 [T] loop t=180335 dt=1220
+21:17:55.814 [Sensor] ADC raw: 565 → LỖI
+21:17:56.838 [T] loop t=181555 dt=1220
+21:17:57.041 [Sensor] ADC raw: 562 → LỖI
+21:17:58.062 [T] loop t=182775 dt=1220
+21:17:58.265 [Sensor] ADC raw: 568 → LỖI
+21:17:59.282 [T] loop t=183995 dt=1220
+21:17:59.485 [Sensor] ADC raw: 571 → LỖI
+21:18:00.503 [T] loop t=185215 dt=1220
+21:18:00.703 [Sensor] ADC raw: 582 → LỖI
+21:18:01.721 [T] loop t=186435 dt=1220
+21:18:01.926 [Sensor] ADC raw: 572 → LỖI
+21:18:03.745 [T] write_fields 1797 ms (HTTP 200)
+21:18:03.745 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:18:04.759 [T] loop t=189455 dt=3020
+21:18:04.961 [Sensor] ADC raw: 515 → LỖI
+21:18:05.978 [T] loop t=190674 dt=1219
+21:18:06.180 [Sensor] ADC raw: 526 → LỖI
+21:18:07.190 [T] loop t=191894 dt=1220
+21:18:07.391 [Sensor] ADC raw: 541 → LỖI
+21:18:08.409 [T] loop t=193114 dt=1220
+21:18:08.611 [Sensor] ADC raw: 538 → LỖI
+21:18:09.626 [T] loop t=194334 dt=1220
+21:18:09.827 [Sensor] ADC raw: 550 → LỖI
+21:18:10.844 [T] loop t=195554 dt=1220
+21:18:11.049 [Sensor] ADC raw: 560 → LỖI
+21:18:12.059 [T] loop t=196774 dt=1220
+21:18:12.262 [Sensor] ADC raw: 560 → LỖI
+21:18:13.275 [T] loop t=197994 dt=1220
+21:18:13.478 [Sensor] ADC raw: 562 → LỖI
+21:18:14.503 [T] loop t=199214 dt=1220
+21:18:14.708 [Sensor] ADC raw: 560 → LỖI
+21:18:15.728 [T] loop t=200434 dt=1220
+21:18:15.932 [Sensor] ADC raw: 569 → LỖI
+21:18:16.951 [T] loop t=201654 dt=1220
+21:18:17.156 [Sensor] ADC raw: 574 → LỖI
+21:18:18.175 [T] loop t=202874 dt=1220
+21:18:18.377 [Sensor] ADC raw: 573 → LỖI
+21:18:19.395 [T] loop t=204094 dt=1220
+21:18:19.598 [Sensor] ADC raw: 576 → LỖI
+21:18:20.616 [T] loop t=205314 dt=1220
+21:18:20.822 [Sensor] ADC raw: 578 → LỖI
+21:18:21.839 [T] loop t=206534 dt=1220
+21:18:22.041 [Sensor] ADC raw: 577 → LỖI
+21:18:23.057 [T] write_fields 1020 ms (HTTP 200)
+21:18:23.057 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:18:24.077 [T] loop t=208777 dt=2243
+21:18:24.282 [Sensor] ADC raw: 539 → LỖI
+21:18:25.298 [T] loop t=209997 dt=1220
+21:18:25.504 [Sensor] ADC raw: 555 → LỖI
+21:18:26.523 [T] loop t=211217 dt=1220
+21:18:26.727 [Sensor] ADC raw: 560 → LỖI
+21:18:27.748 [T] loop t=212438 dt=1221
+21:18:27.953 [Sensor] ADC raw: 570 → LỖI
+21:18:28.971 [T] loop t=213658 dt=1220
+21:18:29.175 [Sensor] ADC raw: 584 → LỖI
+21:18:30.191 [T] loop t=214878 dt=1220
+21:18:30.395 [Sensor] ADC raw: 576 → LỖI
+21:18:31.416 [T] loop t=216098 dt=1220
+21:18:31.622 [Sensor] ADC raw: 585 → LỖI
+21:18:32.638 [T] loop t=217318 dt=1220
+21:18:32.843 [Sensor] ADC raw: 578 → LỖI
+21:18:33.862 [T] loop t=218538 dt=1220
+21:18:34.067 [Sensor] ADC raw: 578 → LỖI
+21:18:35.082 [T] loop t=219758 dt=1220
+21:18:35.282 [Sensor] ADC raw: 581 → LỖI
+21:18:36.297 [T] loop t=220978 dt=1220
+21:18:36.502 [Sensor] ADC raw: 586 → LỖI
+21:18:37.524 [T] loop t=222198 dt=1220
+21:18:37.729 [Sensor] ADC raw: 581 → LỖI
+21:18:38.748 [T] loop t=223418 dt=1220
+21:18:38.952 [Sensor] ADC raw: 583 → LỖI
+21:18:39.974 [T] loop t=224638 dt=1220
+21:18:40.179 [Sensor] ADC raw: 587 → LỖI
+21:18:41.196 [T] loop t=225858 dt=1220
+21:18:41.401 [Sensor] ADC raw: 589 → LỖI
+21:18:42.418 [T] loop t=227078 dt=1220
+21:18:42.623 [Sensor] ADC raw: 590 → LỖI
+21:18:43.434 [T] write_fields 927 ms (HTTP 200)
+21:18:43.640 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:18:44.452 [T] loop t=229228 dt=2150
+21:18:44.653 [Sensor] ADC raw: 559 → LỖI
+21:18:45.674 [T] loop t=230448 dt=1220
+21:18:45.876 [Sensor] ADC raw: 561 → LỖI
+21:18:46.888 [T] loop t=231668 dt=1220
+21:18:47.293 [Sensor] ADC raw: 573 → LỖI
+21:18:48.108 [T] loop t=232888 dt=1220
+21:18:48.513 [Sensor] ADC raw: 575 → LỖI
+21:18:49.324 [T] loop t=234108 dt=1220
+21:18:49.732 [Sensor] ADC raw: 574 → LỖI
+21:18:50.543 [T] loop t=235328 dt=1220
+21:18:50.948 [Sensor] ADC raw: 576 → LỖI
+21:18:51.765 [T] loop t=236548 dt=1220
+21:18:52.170 [Sensor] ADC raw: 585 → LỖI
+21:18:52.981 [T] loop t=237768 dt=1220
+21:18:53.387 [Sensor] ADC raw: 583 → LỖI
+21:18:54.202 [T] loop t=238988 dt=1220
+21:18:54.610 [Sensor] ADC raw: 589 → LỖI
+21:18:55.415 [T] loop t=240208 dt=1220
+21:18:55.820 [Sensor] ADC raw: 588 → LỖI
+21:18:56.831 [T] loop t=241428 dt=1220
+21:18:57.035 [Sensor] ADC raw: 588 → LỖI
+21:18:58.048 [T] loop t=242648 dt=1220
+21:18:58.252 [Sensor] ADC raw: 590 → LỖI
+21:18:59.270 [T] loop t=243868 dt=1220
+21:18:59.476 [Sensor] ADC raw: 591 → LỖI
+21:19:00.487 [T] loop t=245088 dt=1220
+21:19:00.689 [Sensor] ADC raw: 592 → LỖI
+21:19:01.700 [T] loop t=246308 dt=1220
+21:19:01.902 [Sensor] ADC raw: 592 → LỖI
+21:19:02.921 [T] loop t=247528 dt=1220
+21:19:03.125 [Sensor] ADC raw: 588 → LỖI
+21:19:04.144 [T] write_fields 1003 ms (HTTP 200)
+21:19:04.144 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
+21:19:04.959 [T] loop t=249754 dt=2226
+21:19:05.366 [Sensor] ADC raw: 556 → LỖI
+21:19:06.179 [T] loop t=250973 dt=1219
+21:19:06.585 [Sensor] ADC raw: 567 → LỖI
+21:19:07.396 [T] loop t=252193 dt=1220
+21:19:07.803 [Sensor] ADC raw: 569 → LỖI
+21:19:08.617 [T] loop t=253413 dt=1220
+21:19:09.022 [Sensor] ADC raw: 578 → LỖI
+21:19:10.034 [T] loop t=254633 dt=1220
+21:19:10.238 [Sensor] ADC raw: 578 → LỖI
+21:19:11.255 [T] loop t=255853 dt=1220
+21:19:11.457 [Sensor] ADC raw: 591 → LỖI
+21:19:12.475 [T] loop t=257073 dt=1220
+21:19:12.681 [Sensor] ADC raw: 588 → LỖI
+21:19:13.699 [T] loop t=258293 dt=1220
+21:19:13.902 [Sensor] ADC raw: 586 → LỖI
+21:19:14.920 [T] loop t=259513 dt=1220
+21:19:15.122 [Sensor] ADC raw: 590 → LỖI
+21:19:16.138 [T] loop t=260733 dt=1220
+21:19:16.341 [Sensor] ADC raw: 589 → LỖI
+21:19:17.157 [T] loop t=261953 dt=1220
+21:19:17.566 [Sensor] ADC raw: 599 → LỖI
+21:19:18.378 [T] loop t=263173 dt=1220
+21:19:18.787 [Sensor] ADC raw: 597 → LỖI
+21:19:19.596 [T] loop t=264393 dt=1220
+21:19:20.004 [Sensor] ADC raw: 597 → LỖI
+21:19:20.817 [T] loop t=265613 dt=1220
+21:19:21.222 [Sensor] ADC raw: 601 → LỖI
+21:19:22.240 [T] loop t=266833 dt=1220
+21:19:22.446 [Sensor] ADC raw: 593 → LỖI
+21:19:23.258 [T] loop t=268053 dt=1220
+21:19:23.663 [Sensor] ADC raw: 603 → LỖI
+21:19:24.479 [T] write_fields 962 ms (HTTP 200)
+21:19:24.479 [ThingSpeak] Gửi thành công: ẩm=-1%, bơm=TẮT, chế độ=0, lỗi=1
